@@ -185,7 +185,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -212,6 +212,10 @@ header {
     background: transparent;
     border: 0;
     cursor:pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
 }
 
 /* Intro section */
@@ -357,7 +361,7 @@ header {
     height:363px;
     width:500px;
 }
-
+ 
 .portfolio_item {
     background: var(--clr-accent);
     overflow: hidden;
