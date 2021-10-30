@@ -127,16 +127,33 @@ h3 { font-size: var(--fs-h3)}
     margin-bottom: 2em;
 }
 
+.main {
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+
 /*header*/
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:black;
+    padding-bottom: 0.5em;
+    z-index: 2000;
 }
 
 .logo {
-    max-width: 150px;
+    align-items: center;
+    padding-left: 1em;
+    padding-top: 0.50em;
+    color: var(--clr-accent);
+
 }
 
 .nav {
